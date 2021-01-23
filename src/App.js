@@ -48,8 +48,8 @@ function App() {
     <div>
       <label className="col-12 text-center">Gender</label>
       <div className="text-center">
-      <label style={{marginRight: 10}}><input type="radio" value="male" name="gender" defaultChecked onChange={e => setGender(e.target.value)}/>Male</label>
-      <label style={{marginRight: 0}}><input type="radio" value="female" name="gender" onChange={e => setGender(e.target.value)}/>Female</label>
+      <label style={{marginRight: 20}}><input type="radio" value="male" name="gender" defaultChecked onChange={e => setGender(e.target.value)}/>Male</label>
+      <label><input type="radio" value="female" name="gender" onChange={e => setGender(e.target.value)}/>Female</label>
       </div>
     </div>
 
